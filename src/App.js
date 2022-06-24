@@ -18,7 +18,6 @@ function App() {
     if (count < window.innerWidth) {
     let nc = count + 16; 
     setCount(nc)
-    console.log(window.innerWidth, window.innerHeight, count)
     handleDisplay()
     }else{
       alert('maximum votes reached')
